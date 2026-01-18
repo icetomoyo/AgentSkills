@@ -1,0 +1,11 @@
+[project]
+name = "paper-to-presentation-skill"
+version = "0.1.0"
+description = "Helper scripts for Paper to Presentation Agent Skill"
+requires-python = ">=3.10"
+dependencies = [
+    "pymupdf>=1.23.0",
+]
+
+[tool.uv]
+package = true
